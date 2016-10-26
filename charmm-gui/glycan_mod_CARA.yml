@@ -1,0 +1,59 @@
+---
+chain: B
+residues:
+  1:
+    ires: 1
+    linkage: null
+    linkage_patch: null
+    linked_chain: null
+    linked_ires: null
+    linked_resid: null
+    resid: 155
+    resname: AIDOA
+  2:
+    ires: 2
+    linkage: 14AB
+    linkage_patch: 14AB
+    linked_chain: B
+    linked_ires: 1
+    linked_resid: 155
+    resid: 156
+    resname: AGLC
+  3:
+    ires: 3
+    linkage: 14AB
+    linkage_patch: 14AB
+    linked_chain: B
+    linked_ires: 2
+    linked_resid: 156
+    resid: 157
+    resname: AIDOA
+  4:
+    ires: 4
+    linkage: 14AB
+    linkage_patch: 14AB
+    linked_chain: B
+    linked_ires: 3
+    linked_resid: 157
+    resid: 158
+    resname: AGLCNA
+  5:
+    ires: 5
+    linkage: 14AB
+    linkage_patch: 14AB
+    linked_chain: B
+    linked_ires: 4
+    linked_resid: 158
+    resid: 159
+    resname: AIDOA
+  6:
+    ires: 6
+    linkage: 14AB
+    linkage_patch: 14AB
+    linked_chain: B
+    linked_ires: 5
+    linked_resid: 159
+    resid: 160
+    resname: AGLC
+root: 155
+segid: CARA

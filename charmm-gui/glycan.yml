@@ -1,0 +1,22 @@
+Warning: new bonds are added (2109 2256), glycosidic linkage
+ox_id 2256 {'property': 'HETATM', 'resid': '15', 'name': 'O2', 'chain': 'A', 'z': 10.744, 'chain2': 'C', 'ligand_z': 33.066, 'y': 6.033, 'ligand_x': 61.552, 'ligand_y': -8.822, 'resname': 'IPA', 'x': 9.707, 'nmodel': 1, 'type': 'O', 'id': 2256}
+k 2109 {'property': 'HETATM', 'resid': 155, 'name': 'C1', 'chain': 'A', 'z': 9.548, 'chain2': 'B', 'ligand_z': 3.531, 'y': 6.547, 'ligand_x': 3.852, 'ligand_y': 7.326, 'resname': 'IDS', 'x': 10.263, 'nmodel': 1, 'type': 'C', 'id': 2109}
+- chain: B
+  patches:
+    1: {2SUF: SUF2A}
+    2: {2NSF: 2ANSF}
+    4: {6SUF: SUF6}
+    5: {2SUF: SUF2A}
+    6: {2NSF: 2ANSF}
+  residue_list: [155, 156, 157, 158, 159, 160]
+  residues:
+    1: {ires: 1, linkage: null, linkage_patch: null, linked_chain: null, linked_ires: null, linked_resid: null, resid: 155, resname: AIDOA}
+    2: {ires: 2, linkage: 14AB, linkage_patch: 14AB, linked_chain: B, linked_ires: 1, linked_resid: 155, resid: 156, resname: AGLC}
+    3: {ires: 3, linkage: 14AB, linkage_patch: 14AB, linked_chain: B, linked_ires: 2, linked_resid: 156, resid: 157, resname: AIDOA}
+    4: {ires: 4, linkage: 14AB, linkage_patch: 14AB, linked_chain: B, linked_ires: 3, linked_resid: 157, resid: 158, resname: AGLCNA}
+    5: {ires: 5, linkage: 14AB, linkage_patch: 14AB, linked_chain: B, linked_ires: 4, linked_resid: 158, resid: 159, resname: AIDOA}
+    6: {ires: 6, linkage: 14AB, linkage_patch: 14AB, linked_chain: B, linked_ires: 5, linked_resid: 159, resid: 160, resname: AGLC}
+  root: 155
+  segid: CARA
+  type: ligand
+

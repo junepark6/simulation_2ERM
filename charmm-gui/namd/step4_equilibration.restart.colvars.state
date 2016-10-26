@@ -1,0 +1,27 @@
+configuration {
+  step        35000
+  dt 2.00000000000000e+00
+}
+
+colvar {
+  name bb_rmsd
+  x  1.15905775633205e+00
+}
+
+colvar {
+  name sc_rmsd
+  x  1.80500436559026e+00
+}
+
+restraint {
+  configuration {
+    name harmonic1
+  }
+}
+
+restraint {
+  configuration {
+    name harmonic2
+  }
+}
+

@@ -1,0 +1,17 @@
+#!/bin/csh
+#PBS -l nodes=1:ppn=8:blade:intel:avx #:del_int_16_64
+#PBS -l walltime=6:00:00
+#PBS -q default
+#PBS -N test
+#PBS -o test.o
+#PBS -e test.e
+
+cd $PBS_O_WORKDIR
+
+#module load namd/2.11_ibverbs
+module load namd/2.10_mvapich
+module load mvapich2/2.0_intel
+
+mpirun -np 8 namd2 step4_equilibration.inp | tee step4_equilibration.out > /dev/null
+#/research/imlab/namd/NAMD_2.10_Linux-x86_64-multicore/charmrun /research/imlab/namd/NAMD_2.10_Linux-x86_64-multicore/namd2 +p8 ./step4_equilibration.inp | tee step4_equilibration.out > /dev/null
+
